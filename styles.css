@@ -147,6 +147,7 @@ header img {
     margin: 0;
     line-height: 120%;
     padding: 0;
+    
 }
 .galeria {
     width: 100%;
@@ -202,6 +203,32 @@ header img {
 }
 .cards-instagram {
     color: var(--color-secundario);
+}
+
+.dresscode {
+    width: 100%;
+    height: auto;
+    background-color: var(--color-principal);
+    padding: 20px 0;
+    text-align: center;
+}
+.dresscode h2 {
+    padding: 0;
+    margin: 0;
+    font-family: var(--font-secundaria);
+    font-size: 38px;
+    color: var(--color-secundario);
+}
+.dresscode p {
+    margin: 0;
+    line-height: 120%;
+    padding: 0 30px 20px 30px;
+    font-size: 1.2rem;
+    color: var(--color-secundario);
+
+}
+.dresscode img {
+    width: 280px;
 }
  @media (max-width: 500px) {
     header {  
