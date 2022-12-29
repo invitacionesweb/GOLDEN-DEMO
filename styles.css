@@ -149,6 +149,10 @@ header img {
     font-size: 1.1rem;
     gap: 60px;
     padding: 20px 0;
+    background-image: url(./img/background4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .timing p {
     padding: 0;
@@ -213,10 +217,7 @@ header img {
     .timing {
         flex-direction: column;
         gap: 20px;
-        background-image: url(./img/background4.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
+        
     }
     .cards-instagram {
         color: var(--color-principal);
