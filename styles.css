@@ -160,10 +160,11 @@ header img {
 
 .cards-spotify, .cards-instagram {
     width: 100%;
-    height: auto;
-    padding: 20px 0;
+    height: 40vh;
+    padding: auto;
     text-align: center;
     font-size: 1.2rem;
+    
     background-color: var(--color-principal);
 }
 .cards-spotify, .cards-instagram, p {
@@ -172,6 +173,9 @@ header img {
 .cards-spotify {
     color: var(--color-secundario);
     
+}
+.cards-instagram {
+    color: var(--color-secundario);
 }
  @media (max-width: 500px) {
     header {  
@@ -210,6 +214,13 @@ header img {
         flex-direction: column;
         gap: 20px;
         background-image: url(./img/background4.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .cards-instagram {
+        color: var(--color-principal);
+        background-image: url(./img/3.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
