@@ -202,7 +202,8 @@ header img {
     
 }
 .cards-instagram {
-    color: var(--color-secundario);
+    background-color: var(--color-cuarto);
+    color: var(--color-principal);
 }
 
 .dresscode {
