@@ -126,9 +126,13 @@ header img {
     color: var(--color-secundario);
 
 }
-.informacion-card p {
+.informacion-card .text {
     margin: 0 0 30px 0;
-    line-height: 116%;
+}
+.informacion-card p {
+    margin: 0;
+    line-height: 120%;
+    padding: 0;
 }
 .galeria {
     width: 100%;
